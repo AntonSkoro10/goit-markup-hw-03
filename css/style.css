@@ -17,11 +17,11 @@ ul {
 }
 
 img {
-    display: inline-block
+    display: block
 }
 
 .button {
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -58,7 +58,6 @@ body {
 }
 
 .page-header {
-    padding: 0 15px 0 15px;
     border-bottom: 1px solid #e7e9fc  
 }
 
@@ -71,7 +70,6 @@ body {
 .navigation {
     display: flex;
     align-items: center;
-   
 }
 
 .menu {
@@ -169,6 +167,8 @@ body {
     font-family:'Roboto'sans-serif ;
     font-weight: 500;
     font-size: 16px;
+    min-width: 169px;
+    height: 56px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
