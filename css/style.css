@@ -20,11 +20,18 @@ img {
     display: block
 }
 
-.button {
+ button {
     display: block;
     padding: 16px 32px;
-    align-items: flex-start;
     gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4D5AE5;
 }
 
 .link {
@@ -163,21 +170,14 @@ body {
 }
 
 .button-order {
-    background-color: #4D5AE5;
     font-family:'Roboto'sans-serif ;
     font-weight: 500;
     font-size: 16px;
-    min-width: 169px;
-    height: 56px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
     border-radius: 4px;
     color: #FFFFFF;
-    cursor: pointer;
 }
 
 .button-order:hover {
@@ -199,10 +199,12 @@ body {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .purpose-list {
