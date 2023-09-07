@@ -293,7 +293,6 @@ color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
@@ -329,6 +328,7 @@ color: #2e2f42;
 }
 
 .paragraph-portfolio {
+    margin: auto;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
